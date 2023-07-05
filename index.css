@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to right, #c7a17a, #fff);
+    padding: 10px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #animalList {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .animalCard {
+    border: 1px solid #a38d73;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f9f5ec;
+    transition: background-color 0.3s ease;
+  }
+  
+  .animalCard:hover {
+    background-color: #e3d9cc;
+  }
+  
+  #animalDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #f9f5ec;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #animalDetails img {
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #animalDetails .votes {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #5c4d3f;
+  }
+  
+  #animalDetails button {
+    background-color: #c7a17a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #animalDetails button:hover {
+    background-color: #a38d73;
+  }
+  
